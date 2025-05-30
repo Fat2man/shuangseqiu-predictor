@@ -1,0 +1,146 @@
+# Dependencies / 依赖
+node_modules/
+.pnp
+.pnp.js
+
+# Production build / 生产构建
+dist/
+build/
+out/
+
+# Development / 开发相关
+.cache/
+.temp/
+.tmp/
+
+# Environment variables / 环境变量
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+.env.*.local
+
+# Logs / 日志文件
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Runtime data / 运行时数据
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul / 测试覆盖率
+coverage/
+*.lcov
+.nyc_output
+
+# IDE and editor files / IDE和编辑器文件
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files / 操作系统生成的文件
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Vite specific / Vite 特定
+.vite/
+
+# TypeScript / TypeScript 相关
+*.tsbuildinfo
+
+# Optional npm cache directory / npm 缓存
+.npm
+
+# Optional eslint cache / ESLint 缓存
+.eslintcache
+
+# Optional stylelint cache / Stylelint 缓存
+.stylelintcache
+
+# Microbundle cache / Microbundle 缓存
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# Optional REPL history / REPL 历史
+.node_repl_history
+
+# Output of 'npm pack' / npm pack 输出
+*.tgz
+
+# Yarn Integrity file / Yarn 完整性文件
+.yarn-integrity
+
+# parcel-bundler cache / Parcel 缓存
+.parcel-cache
+
+# Next.js build output / Next.js 构建输出
+.next
+
+# Nuxt.js build / Nuxt.js 构建
+.nuxt
+dist
+
+# Storybook build outputs / Storybook 构建输出
+.out
+.storybook-out
+
+# Temporary folders / 临时文件夹
+tmp/
+temp/
+
+# Local Netlify folder / Netlify 本地文件夹
+.netlify
+
+# Stores VSCode versions used for testing VSCode extensions / VSCode 扩展测试
+.vscode-test
+
+# Tailwind CSS / Tailwind CSS 相关
+.tailwindcss-cache
+
+# Package manager lock files / 包管理器锁文件 (根据项目选择保留一个)
+# yarn.lock
+# package-lock.json
+# 项目使用 pnpm，所以保留 pnpm-lock.yaml
+
+# Editor directories and files / 编辑器目录和文件
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Local data / 本地数据
+data/
+*.db
+*.sqlite
+*.sqlite3
+
+# Backup files / 备份文件
+*.bak
+*.backup
+
+# Archive files / 压缩文件
+*.zip
+*.tar.gz
+*.rar 
