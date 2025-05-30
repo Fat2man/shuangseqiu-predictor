@@ -171,7 +171,7 @@ interface PredictionResult {
 
 ```bash
 # 克隆项目
-git clone <repository-url>
+git clone git@github.com:Fat2man/shuangseqiu-predictor.git
 cd shuangseqiu-predictor
 
 # 安装依赖
@@ -259,13 +259,5 @@ pnpm preview
 - 预测结果不构成任何投注建议
 - 彩票投注存在风险，请理性参与
 - 开发者不承担任何使用后果责任
-
-## 📞 联系方式
-
-- 项目地址：[GitHub Repository]
-- 问题反馈：[Issues]
-- 技术讨论：[Discussions]
-
----
 
 **⭐ 如果这个项目对你有帮助，请给它一个 Star！**
